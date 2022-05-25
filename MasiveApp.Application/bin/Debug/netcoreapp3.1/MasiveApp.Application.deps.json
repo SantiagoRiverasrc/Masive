@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MasiveApp.Application/1.0.0": {
+        "dependencies": {
+          "Masive.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MasiveApp.Application.dll": {}
+        }
+      },
+      "Masive.Domain/1.0.0": {
+        "runtime": {
+          "Masive.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MasiveApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Masive.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
